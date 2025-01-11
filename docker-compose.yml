@@ -11,7 +11,7 @@ services:
       - pg-data:/var/lib/postgresql/data
     environment:
       POSTGRES_USER: postgres
-      POSTGRES_PASSWORD: totalpass_rocket
+      POSTGRES_PASSWORD: postgres
 
 volumes:
   pg-data:
